@@ -1,0 +1,498 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+  ==================
+  ======HEADER======
+  ==================
+  */
+  
+  #header-div {
+    background: url(../images/default-header.jpg) no-repeat center center fixed;
+  }
+  
+  #header-h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+  }
+  
+  #header-bottom {
+    height: 50px;
+    background: linear-gradient(rgba(29, 29, 29, 0), rgba(29, 29, 29, 1));
+  }
+  
+  /*
+  ==================
+  ======NAVBAR======
+  ==================
+  */
+  
+  #nav-bar {
+    background: linear-gradient(rgba(29, 29, 29, 1), rgba(29, 29, 29, 0)) !important;
+  }
+  
+  .navbar {
+    padding-top: 15px;
+  }
+  
+  .bg-light {
+    background: none!important;
+  }
+  
+  #navbar-logo {
+    width: 33px;
+    margin-right: 10px;
+  }
+  
+  #nav-h1 {
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+  
+  .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255,255,255,0.90);
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  #nav-signup {
+    margin-left: 20px;
+  }
+  
+  #nav-signup-button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white;
+  }
+  
+  #nav-signup-button:hover {
+    border-color: white;
+    background: none;
+  }
+  
+  /*
+  ==================
+  ======Footer======
+  ==================
+  */
+  
+  #footer {
+    height: 450px;
+    position: relative;
+    background: linear-gradient(#232E5E, #426492);
+    color: white;
+    margin-top: 100px;
+  }
+  
+  .footer-shape {
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #footer-content {
+    padding-top: 230px;
+  }
+  
+  #deep-footer {
+    padding: 20px 0 10px 0;
+  }
+  
+  #deep-footer > .container > p {
+    margin-bottom: 0;
+  }
+  
+  /*
+  ====================================
+  ====================================
+  ============LANDING PAGE============
+  ====================================
+  ====================================
+  */
+  
+  #landing-page {
+    position: relative;
+    background: linear-gradient(#1C2652, #426492); /* (#232E5E, #426492) */
+    color: white;
+  }
+  
+  /*
+  ==================
+  =======HERO=======
+  ==================
+  */
+  
+  #hero-div {
+    height:600px;
+    width: 100%;
+  }
+  
+  .jumbotron {
+    background: none;
+  }
+  
+  #hero-h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  #hero-paragraph {
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  
+  #hero-ul {
+    list-style: none;
+  }
+  
+  .hero-li {
+    font-size: 17px;
+  }
+  
+  .hero-check {
+    color: #04BA9E;
+  }
+  
+  #hero-button {
+    background: #04BA9E;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  #hero-image {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+  }
+  
+  .header-shape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+  }
+  
+  /*
+  ==================
+  =====SERVERS======
+  ==================
+  */
+  
+  .servers {
+    margin-top: 70px;
+  }
+  
+  .server-field {
+    margin-bottom: 30px;
+  }
+  
+  .server-header {
+    color: #223150;
+  }
+  
+  .server-ul {
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  .server-check {
+    color: limegreen;
+    margin-right: 2px;
+  }
+  
+  .bg-image {
+    width: 100%;
+  }
+  
+  #server-mid-img1 {
+    display: none;
+  }
+  
+  /*
+  ==================
+  ===Testimonials===
+  ==================
+  */
+  
+  #testimonials {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  #testimonial-header {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .testimonial-div {
+    margin-bottom: 50px;
+  }
+  
+  .testimonial-image {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .testimonial-h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .testimonial-h4 {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    font-size: 20px;
+  }
+  
+  .testimonial-p {
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+    color: gray;
+  }
+  
+  /*
+  ===================
+  ==Social Networks==
+  ===================
+  */
+  
+  #social-networks-div {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .social-network-div {
+    margin-bottom: 50px;
+  }
+  
+  .social-network-image {
+    width: 150px;
+    border-radius: 30%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .social-network-h3 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .social-network-number {
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .social-network-followers {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+  /*
+  ==================
+  ==Media Queries===
+  ==================
+  */
+  
+  @media all and (max-width: 991px) {
+    #nav-signup {
+      margin-left: 0;
+    }
+    #hero-div {
+      height: 650px;
+    }
+    #hero-image {
+      margin-top: 100px;
+    }
+    #hero-h1 {
+      font-size: 38px;
+    }
+    #footer {
+      height: 500px;
+    }
+    #drustvene-mreze {
+      display: none;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    #hero-div {
+      height: 550px;
+    }
+    #hero-image {
+      display: none;
+    }
+    #hero-h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    #hero-paragraph {
+      display: none;
+    }
+    #hero-button-div {
+      text-align: center;
+    }
+    #server-mid-img1 {
+      display: inline;
+    }
+    #server-mid-img2 {
+      display: none;
+    }
+    #footer {
+      height: 620px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    #hero-div {
+      height: 500px;
+    }
+    #hero-h1 {
+      font-size: 35px;
+    }
+    #footer {
+      height: 600px;
+    }
+  }
+  
+  @media all and (max-width: 400px) {
+    .hero-li {
+      font-size: 15px;
+    }
+  }
+
+.container1{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+
+}
+.timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.timeline ul {
+    list-style: none;
+}
+.timeline ul li{
+    padding: 20px;
+    background-color:#426492;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline ul li:last-child{
+    margin-bottom: 0;
+}
+.timeline-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-content .date{
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color:#426492;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline::before{
+        content: ' ';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:#426492;
+    }
+    .timeline ul li {
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+
+    }
+    .timeline ul li:nth-child(odd){
+        float: left;  
+        clear: right; 
+        transform: translateX(-50px);
+        border-radius: 20px 0px 20px 20px;
+    }
+    .timeline ul li:nth-child(even){
+        float: right;   
+        clear: left;
+        transform: translateX(15px);
+        border-radius: 0px 20px 20px 20px;
+    }
+   .timeline ul li::after{
+    content: ' ';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color:#232E5E;
+    border-radius: 50%;
+    top: 0;
+   }
+   .timeline ul li:nth-child(odd)::after{
+    transform: translate(50%,-50%);
+    right: -30px;
+   }
+
+    .timeline ul li:nth-child(even)::after{
+        transform: translate(-50%,-50%);
+        right: 395px;
+    
+
+   }
+   .timeline ul li:hover::after{
+    background-color:#04BA9E;
+   }
+   .timeline-content .date {
+    position: absolute;
+    top: -30px;
+}
+    
+}
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+}
